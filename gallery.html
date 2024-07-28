@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Gallery</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #121212;
+      color: white;
+      padding: 20px;
+    }
+    .gallery-section {
+      margin-bottom: 50px;
+    }
+    .gallery-header {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: left;
+      color: #e50914;
+      position: relative;
+      display: inline-block;
+    }
+    .gallery-header::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #e50914;
+      bottom: -5px;
+      left: 0;
+    }
+    .image-box {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    .image-box img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      scroll-snap-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .image-box img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    .image-box img:active {
+      transform: scale(0.9);
+    }
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .image-box img {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="gallery-section">
+    <div class="gallery-header">One Piece</div>
+    <div class="image-box">
+      <img src="https://i.ibb.co/ZNZ4pMn/1046568.jpg" alt="One Piece Image 1">
+      <img src="https://i.ibb.co/LYbKSZt/desktop-wallpaper-black-one-piece-flag-one-piece-anime.jpg" alt="One Piece Image 2">
+      <img src="https://i.ibb.co/8btbtk4/roronoa-zoro-4k-hd-one-piece.jpg" alt="One Piece Image 3">
+      <img src="https://i.ibb.co/LC33WVK/IMG-20240726-133802-022.jpg" alt="One Piece Image 4">
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-header">Demon Slayer</div>
+    <div class="image-box">
+      <img src="https://i.ibb.co/jvyTkmV/demon-slayer-3840x2160-10716.jpg" alt="Demon Slayer Image 1">
+      <img src="https://i.ibb.co/X3mX023/dark-demon-slayer-chromebook-wallpaper.jpg" alt="Demon Slayer Image 2">
+      <img src="https://i.ibb.co/6sWmfjK/HD-wallpaper-anime-demon-slayer-kimetsu-no-yaiba-kimetsu-no-yaiba-tanjirou-kamado.jpg" alt="Demon Slayer Image 3">
+      <img src="https://i.ibb.co/Fq6x4Z3/HD-wallpaper-yoriichi-tsugikuni-demon-slayer-kimetsu-no-yaiba.jpg">
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-header">One Punch Man</div>
+    <div class="image-box">
+      <img src="https://i.ibb.co/7Jp4WB9/690e35b3d97fe70a360eeec0ad81a23d.jpg" alt="One Punch Man Image 1">
+      <img src="https://i.ibb.co/bJwvThd/anime-digital-art-fan-art-one-punch-man-saitama-hd-wallpaper-preview.jpg" alt="One Punch Man Image 2">
+      <img src="https://i.ibb.co/qWLFtdH/one-punch-man-3840x2304-7580.jpg" alt="One Punch Man Image 3">
+      <img src="https://i.ibb.co/df7sLQc/saitama-one-punch-man-anime-wallpaper-preview.jpg" alt="One Punch Man Image 4">
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-header">Dragon Ball</div>
+    <div class="image-box">
+      <img src="https://i.ibb.co/C9rCnMd/wp12002415.jpg" alt="Dragon Ball Image 1">
+      <img src="https://i.ibb.co/NsXLgLC/dragon-ball-z-characters-b6en0d2zb75j04e9.jpg" alt="Dragon Ball Image 2">
+      <img src="https://i.ibb.co/2tPn7c1/17857.webp" alt="Dragon Ball Image 3">
+      <img src="https://i.ibb.co/znwg2zC/thumb-1920-647552.jpg" alt="Dragon Ball Image 4">
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="gallery-header">Naruto</div>
+    <div class="image-box">
+      <img src="https://i.ibb.co/g44wsJB/desktop-wallpaper-naruto-png-naruto-logo-transparent-transparent-png-logos-naruto-shippuden-logo.jpg" alt="Naruto Image 1">
+      <img src="https://i.ibb.co/6Nv060P/1tjSMp.jpg" alt="Naruto Image 2">
+      <img src="https://i.ibb.co/qFLR0xZ/japan-anime-naruto-manga-series-50sdgrwbaqvjhf0c.jpg" alt="Naruto Image 3">
+      <img src="https://i.ibb.co/Snrm4W8/anime-naruto-uzumaki-using-abilities-desktop-wallpaper-preview.jpg" alt="Naruto Image 4">
+      <img src="https://i.ibb.co/RQkJmS6/1328396.png" alt="Naruto Image 5">
+    </div>
+  </section>
+  <script>
+    document.querySelectorAll('.image-box').forEach(box => {
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      box.addEventListener('mousedown', (e) => {
+        isDown = true;
+        box.classList.add('active');
+        startX = e.pageX - box.offsetLeft;
+        scrollLeft = box.scrollLeft;
+      });
+      box.addEventListener('mouseleave', () => {
+        isDown = false;
+        box.classList.remove('active');
+      });
+      box.addEventListener('mouseup', () => {
+        isDown = false;
+        box.classList.remove('active');
+      });
+      box.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - box.offsetLeft;
+        const walk = (x - startX) * 3; //scroll-fast
+        box.scrollLeft = scrollLeft - walk;
+      });
+    });
+  </script>
+</body>
+</html>

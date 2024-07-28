@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login / Signup</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      list-style: none;
+      text-decoration: none;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('https://i.ibb.co/LQ9p5x7/goku-anime-art-glowing-eyes.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .header p {
+      font-size: 18px;
+      color: #ddd;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background: #e50914;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .form-group button:hover {
+      background-color: #f40612;
+    }
+    .social-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+    }
+    .social-buttons a {
+      display: block;
+      width: 48%;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      background: #333;
+      transition: background-color 0.3s ease;
+    }
+    .social-buttons a:hover {
+      background-color: #555;
+    }
+    .forgot-password {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .forgot-password a {
+      color: #e50914;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .forgot-password a:hover {
+      text-decoration: underline;
+    }
+    .signup-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .signup-link a {
+      color: #e50914;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .signup-link a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+      .header h1 {
+        font-size: 28px;
+      }
+      .header p {
+        font-size: 16px;
+      }
+      .form-group button {
+        font-size: 14px;
+      }
+      .social-buttons a {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Login / Signup</h1>
+      <p>Welcome to Anime Showcase</p>
+    </div>
+
+    <form id="login-signup-form">
+      <div class="form-group">
+        <label for="username-email">Username / Email</label>
+        <input type="text" id="username-email" name="username-email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+
+      <div class="forgot-password">
+        <a href="#">Forgot Password?</a>
+      </div>
+
+      <div class="social-buttons">
+        <a href="#">Login with Google</a>
+        <a href="#">Login with GitHub</a>
+      </div>
+    </form>
+
+    <div class="signup-link">
+      <p>Don't have an account? <a href="#">Sign up here</a></p>
+    </div>
+  </div>
+</body>
+</html>
