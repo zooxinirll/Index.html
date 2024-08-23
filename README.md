@@ -44,12 +44,16 @@ If you encounter any issues or have feature suggestions, feel free to [open an i
 ## 🧑‍💻 Author
 
 **Zooxinirll**
-- GitHub: [@zooxinirll](https://github.com/zooxinirll)
-- Instagram: [@h3r.10c4lh0st.07](https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==)
+### 🌐 Connect With Me
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<p align="center">
+  <a href="https://github.com/zooxinirll" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
 
 ---
 
