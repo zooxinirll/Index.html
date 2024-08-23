@@ -58,4 +58,3 @@ If you encounter any issues or have feature suggestions, feel free to [open an i
 ---
 
 Enjoy your time exploring the vast world of anime with **Anime Showcase**!
-"""
