@@ -11,7 +11,6 @@
 - **Comprehensive Anime Database**: Explore detailed information about popular anime series, their characters, plotlines, and creators.
 - **High-Quality Streaming**: Users can watch their favorite anime episodes in high quality with optimized data usage.
 - **Anime Gallery**: Browse through a visually rich gallery of anime-related images, scenes, and artwork.
-- **Mobile Friendly**: Designed with responsiveness in mind, so you can enjoy content seamlessly across devices.
 
 ## 🎬 Watch Anime
 
@@ -26,32 +25,13 @@ Explore our curated anime gallery, featuring stunning visuals from various serie
 - **HTML5**: For creating the structure of the web pages.
 - **CSS3**: For styling and creating responsive layouts.
 - **JavaScript**: For handling interactive elements and gallery functionality.
-- **Python**: Backend server-side scripting, if applicable.
-- **Streaming Optimization Techniques**: Custom scripts and configurations to minimize data usage while streaming.
 
-## 📁 Project Structure
-
-\`\`\`plaintext
-Anime-Showcase/
-├── index.html            # Main landing page
-├── styles/
-│   └── main.css          # Stylesheet for the website
-├── scripts/
-│   └── main.js           # JavaScript for interactivity and optimizations
-├── assets/
-│   ├── images/           # Anime images and gallery resources
-│   ├── videos/           # Video files for anime streaming
-│   └── logos/            # Logos and branding assets
-├── gallery.html          # Gallery page
-└── README.md             # This file
-\`\`\`
 
 ## 📖 How to Use
 
 1. **Visit the Website**: Simply go to the [Anime Showcase Website](https://zooxinirll.github.io/Index.html/) to start exploring.
 2. **Watch Anime**: Navigate to the "Watch Anime" section to find your favorite series and start streaming.
-3. **Explore the Gallery**: Check out the "Gallery" section to view beautiful anime visuals.
-4. **Mobile Friendly**: Access the website from your smartphone or tablet for a seamless experience on the go.
+3. **Explore the Gallery**: Check out the "Gallery" setion to view beautiful anime visuals 
 
 ## 🌐 Live Demo
 
