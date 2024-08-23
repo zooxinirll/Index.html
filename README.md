@@ -37,34 +37,6 @@ Explore our curated anime gallery, featuring stunning visuals from various serie
 
 Check out the live website here: [Anime Showcase](https://zooxinirll.github.io/Index.html/)
 
-## 🚀 Getting Started with Development
-
-If you'd like to contribute to Anime Showcase or run it locally, follow these steps:
-
-1. **Clone the repository**:
-   \`\`\`bash
-   git clone https://github.com/zooxinirll/Anime-Showcase.git
-   cd Anime-Showcase
-   \`\`\`
-
-2. **Set up a local server** (for dynamic content or video serving):
-   \`\`\`bash
-   python -m http.server
-   \`\`\`
-
-3. **Open in Browser**:
-   Open \`http://localhost:8000\` in your browser to view the site locally.
-
-## 🤝 Contributing
-
-We welcome contributions to Anime Showcase! Whether it's improving the gallery, adding more anime series, or optimizing the streaming experience, your efforts are appreciated. To contribute:
-
-1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/NewFeature\`)
-3. Commit your changes (\`git commit -m 'Add new feature'\`)
-4. Push to the branch (\`git push origin feature/NewFeature\`)
-5. Open a Pull Request
-
 ## 🛠️ Issues and Feature Requests
 
 If you encounter any issues or have feature suggestions, feel free to [open an issue](https://github.com/zooxinirll/Anime-Showcase/issues) on GitHub.
@@ -83,10 +55,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Enjoy your time exploring the vast world of anime with **Anime Showcase**!
 """
-
-# Save the README content to a markdown file
-file_path = "/mnt/data/Anime_Showcase_README.md"
-with open(file_path, "w") as file:
-    file.write(readme_content)
-
-file_path
